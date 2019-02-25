@@ -1,7 +1,7 @@
 {
-    "name": "laravel/lumen",
-    "description": "The Laravel Lumen Framework.",
-    "keywords": ["framework", "laravel", "lumen"],
+    "name": "MekDrop/JobTest-Teltonika-TodoAppWithRESTApiCalls",
+    "description": "JobTest",
+    "keywords": [],
     "license": "MIT",
     "type": "project",
     "require": {
