@@ -1,4 +1,4 @@
-# Todo App (JobTest)
+# JobTest for Teltonika: Todo App With REST Api Calls (incomplete)
 
 This todo app based on [Lumen framework](https://lumen.laravel.com) was created as a job test for [Teltonika.lt](https://teltonika.lt).
 
