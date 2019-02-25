@@ -1,0 +1,10 @@
+/vendor
+/.idea
+.env
+/public/**/*
+!/public/index.php
+!/public/.htaccess
+.phpstorm.meta.php
+.vagrant
+node_modules/
+*.log

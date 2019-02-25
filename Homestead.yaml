@@ -1,0 +1,27 @@
+ip: "192.168.10.167"
+memory: 2048
+cpus: 1
+provider: virtualbox
+name: todo-homestead
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: ./
+      to: /home/vagrant/todo
+
+sites:
+    - map: todo.localhost
+      to: /home/vagrant/todo/public
+
+databases:
+    - todo
+
+ports:
+  - send: 3306
+    to: 3306
+  - send: 80
+    to: 80
